@@ -21,10 +21,10 @@ chainz:
     name: skcc-sto-project-local
     provider: FININ03
   server_key_service:
-    url: https://dev-kong.chainz.biz/sks
+    url: https://dev-framework.chainz.biz/sks
   transaction_manager:
-    url: https://dev-kong.chainz.biz/tx-manager
+    url: https://dev-utility.chainz.biz/tx-manager
   erc20:
-    url: https://dev-kong.chainz.biz/erc20
+    url: https://dev-utility.chainz.biz/erc20
     admin: "0x3126a9dbf7c67c0d54bd634539b82f51705812db"
     recipient: "0x3126a9dbf7c67c0d54bd634539b82f51705812db"
