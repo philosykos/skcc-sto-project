@@ -2,6 +2,8 @@ server:
   port: 8080
 
 spring:
+  application:
+    name: spring-boot-jpa-sample
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/sto
@@ -18,7 +20,7 @@ spring:
 
 chainz:
   service:
-    name: skcc-sto-project-local
+    name: spring-boot-jpa-sample-local
     provider: FININ03
   server_key_service:
     url: https://dev-framework.chainz.biz/sks
@@ -26,5 +28,5 @@ chainz:
     url: https://dev-utility.chainz.biz/tx-manager
   erc20:
     url: https://dev-utility.chainz.biz/erc20
-    admin: "0x3126a9dbf7c67c0d54bd634539b82f51705812db"
+    admin: "0x3126a9dbf7c67c0d54bd634539b82f51705812da"
     recipient: "0x3126a9dbf7c67c0d54bd634539b82f51705812db"

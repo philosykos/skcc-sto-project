@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>skcc-sto-project</artifactId>
+    <artifactId>spring-boot-jpa-sample</artifactId>
     <version>1.0.0</version>
     <name>skcc-sto-project</name>
     <description>skcc-sto-project</description>
